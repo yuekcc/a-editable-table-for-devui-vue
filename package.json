@@ -1,0 +1,25 @@
+{
+  "name": "devui-vue-demo",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "vite"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@devui-design/icons": "^1.4.0",
+    "@vitejs/plugin-vue": "^5.2.3",
+    "@vitejs/plugin-vue-jsx": "^4.1.2",
+    "devui-theme": "^0.0.7",
+    "lodash": "^4.17.21",
+    "vite": "^6.2.5",
+    "vue": "^3.5.13",
+    "vue-devui": "^1.6.32"
+  }
+}
